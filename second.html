@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movies Hub</title>
+  <link rel="icon" type="image/x-icon" href="icon3.jpeg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
+    .h3 {
+  font-family: "Trirong", serif;
+}
+section {  
+    padding: 60px 0;  
+}  
+section .section-title {  
+    text-align: center;  
+    color: #007b5e;  
+    margin-bottom: 50px;  
+    text-transform: uppercase;  
+}  
+#footer {  
+    background: #181717;  
+}  
+#footer h5 {  
+   padding-left: 10px;  
+    border-left: 3px solid #eeeeee;  
+    padding-bottom: 6px;  
+    margin-bottom: 20px;  
+    color:#ffffff;  
+}  
+#footer a {  
+    color: #ffffff;  
+    text-decoration: none !important;  
+    background-color: transparent;  
+}  
+#footer ul.social li {  
+    padding: 3px 0;  
+}  
+#footer ul.social li a i {  
+    margin-right: 5px;  
+    font-size:25px;  
+    -webkit-transition: .5s all ease;  
+    -moz-transition: .5s all ease;  
+    transition: .5s all ease;  
+}  
+#footer ul.social li:hover a i {  
+    font-size:30px;  
+    margin-top:-10px;  
+}  
+#footer ul.social li a  
+{  
+    color:#ffffff;  
+}  
+#footer ul.social li a:hover {  
+    color:#eeeeee;  
+}  
+#footer ul.quick-links li a {  
+    color:#ffffff;  
+}  
+#footer ul.quick-links li {  
+    padding: 3px 0;  
+    -webkit-transition: .5s all ease;  
+    -moz-transition: .5s all ease;  
+    transition: .5s all ease;  
+}  
+#footer ul.quick-links li:hover {  
+    padding: 3px 0;  
+    margin-left:5px;  
+    font-weight:700;  
+}  
+#footer ul.quick-links li a i {  
+    margin-right: 5px;  
+}  
+#footer ul.quick-links li:hover a i {  
+    font-weight: 700;  
+}  
+@media (max-width:767px) {  
+#footer h5 {  
+      padding-left: 0;  
+    border-left: transparent;  
+    padding-bottom: 0px;  
+    margin-bottom: 10px;  
+}  
+}  
+h2 {  
+padding: 25px 0;  
+text-align: center;  
+color: #fff;  
+background: #232324;  
+}  
+.new{ 
+  top:10%;
+  right:40%;
+}
+
+  </style>
+</head>
+
+<body style="background-color:rgb(12, 9, 9);">
+
+  <table>
+    <tr>
+    
+      <td><nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <h1 style="color:rgb(206, 183, 183);">&nbsp; MoviesHub</h1>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      &nbsp;<li class="nav-item">
+        <a class="nav-link" href="second.html">&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="demo.html">&nbsp;Plans</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          &nbsp; More
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="bollywood.html">Bollywood</a>
+          <a class="dropdown-item" href="hollywood.html">Hollywood</a>
+          <a class="dropdown-item" href="kids.html">Junior Kids</a>
+          <a class="dropdown-item" href="feedback form.html">feedback form</a>
+        </div>
+      </li>
+    </ul>
+
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+
+   <form class="form-inline" action="/action_page.php">
+    <br><input class="form-control text-danger" style="width:600px;" type="text" placeholder="Search for Movies">&nbsp;&nbsp;&nbsp;
+    <li><a href="sign.html"><button class="btn btn-light">&nbsp;Sign-in</a></li></button>
+  </form>
+  
+<br>
+</nav>
+</td>
+</tr>
+</table>
+<br><br>
+<br><br><br>
+<div class="container">
+  <div class="alert bg-dark alert-dismissable">
+    <button type="button" class="close text-light" data-dismiss="alert">&times;</button>
+    <strong class="text-light"> Info! Now we even have amazing offers on our premium packs. To explore, <a href="#" class="alert-link">click here.</strong></a>&nbsp
+    <span style='font-size:20px;'>&#129321;</span>
+  </div>
+
+  <div class="alert bg-dark alert-dismissable">
+    <button type="button" class="close text-light" data-dismiss="alert">&times;</button>
+    <strong class="text-light"> Warning! Only one person at a time will be able to access the movies.</strong>&nbsp
+    <span style='font-size:20px;'>&#128560;</span>
+  </div>
+</div>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+ 
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <center><img src="leela.jpg" alt="Los Angeles" width="900" height="500"></center>
+    </div>
+    <div class="carousel-item">
+      <center><img src="jodha.jpg" alt="Chicago" width="900" height="500"></center>
+    </div>
+    <div class="carousel-item">
+      <center><img src="harry1.jpg" alt="New York" width="900" height="500"></center>
+    </div>
+    <div class="carousel-item">
+      <center><img src="jumanji.jpeg" alt="New York" width="900" height="500"></center>
+    </div>
+    <div class="carousel-item">
+      <center><img src="kalank.jpg" alt="New York" width="900" height="500"></center>
+    </div>
+    <div class="carousel-item">
+      <center><img src="dabbe.jpg" alt="New York" width="900" height="500"></center>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br><br>
+
+<div class="container-fluid">
+  <h3 class="text-light h3">Continue Watching</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=kofrlCHyiaU&t=11s"><img src="fanaa.jpg" class="image" width="350px" height="210px"></a>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=vqu4z34wENw"><img src="pathan.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=BUjXzrgntcY"><img src="brah.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=eNOmLIxv7U4&t=33s"><img src="tum.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+  <a href="https://www.youtube.com/watch?v=EkzD0d0yFdM"><img src="cirkus.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=UN5Ss-EV_qc"><img src="ek.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=aHeOQSB9rfY"><img src="dabbe.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=fb5ELWi-ekk"><img src="jurassic.png" class="image" width="320px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="h3" style="color:rgb(242, 224, 164);">Comedy</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=P2eZzbCKknQ"><img src="s2.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=6DxjJzmYsXo"><img src="minion.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=gcHH34cEl3Y"><img src="housefull.webp" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=eNOmLIxv7U4&t=33s"><img src="black1.jpg" class="image" width="350px" height="210px"></a>
+  
+  
+</div>
+<br><br>
+<div class="container-fluid">
+  <h3 class="text-info h3">Action</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=gRbG2tjHYCA"><img src="db.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=tQ0mzXRk-oM"><img src="war.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=dj9UXzyDsOA"><img src="oum.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=RWpiDVADoac"><img src="emola.webp" class="image" width="350px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="text-warning h3">Drama</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=6pbG4aVrs5E"><img src="mohab.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=iSspRSGc4Dk"><img src="fall.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=3UKsbXQUwqw"><img src="sita.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=Yy8SKJygKD4"><img src="geh.jpg" class="image" width="350px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="h3" style="color:rgb(0, 255, 255);">Historic</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=DyGBwrtIamw"><img src="elize.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=5Paw8kazId8"><img src="padma.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=eBw8SPPvGXQ"><img src="mani.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=6oRSN0EKPh4"><img src="tanhaji.webp" class="image" width="350px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="h3" style="color:rgb(246, 120, 154);">Horror</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=k10ETZ41q5o"><img src="conjuring.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=bCxm7cTpBAs"><img src="anabel.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=ELcRnZ3kP08"><img src="bhoot.webp" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=w-Ziwnvz0Cs"><img src="haunted.jpg" class="image" width="350px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="h3" style="color:rgb(255, 186, 137);">Romance</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=cmax1C1p660"><img src="ddlj.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=7uY1JbWZKPA"><img src="kkkg.jfif" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=OSaVImLnnsw"><img src="veer.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=RiANSSgCuJk"><img src="kabir.jpg" class="image" width="350px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="h3" style="color:rgb(235, 223, 215);">Thriller</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=n8y2YNzzilM"><img src="final.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=tAiy66Xrsz4"><img src="hp.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=ZO0MXSX7zvg"><img src="room.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=5YEVQDr2f3Q"><img src="murder.jpg" class="image" width="350px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="h3" style="color:rgb(255, 102, 0);">Documentary</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=tm-dXwxPRMw"><img src="cat.jfif" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=l1KfvjO7Bwg"><img src="water.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=wwvqxLewBxg"><img src="city.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=urYOTavhz6c"><img src="flight.jpg" class="image" width="350px" height="210px"></a>
+</div>
+
+<br><br>
+<div class="container-fluid">
+  <h3 class="h3" style="color:rgba(201, 222, 233, 0.647);">Kids</h3><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=gnprhsRHSZg"><img src="kung.jfif" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=JftfaLAgv1c"><img src="baby.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=iurbZwxKFUE"><img src="beauty.jpg" class="image" width="350px" height="210px"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=QRmKa7vvct4"><img src="angry.jpg" class="image" width="350px" height="210px"></a>
+</div><br><br>
+
+
+<section id="footer">  
+<div class="container">  
+<div class="row text-center text-xs-center text-sm-left text-md-left">  
+<div class="col-xs-12 col-sm-4 col-md-4">  
+<h5> Quick links </h5>  
+  <ul class="list-unstyled quick-links">  
+    <li> <a href="second.html"> <i class="fa fa-angle-double-right"> </i> Home </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> About </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> FAQ </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Get Started </a> </li>  
+              <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Videos </a> </li>  
+</ul>  
+</div>  
+  <div class="col-xs-12 col-sm-4 col-md-4">  
+    <h5> Quick links </h5>  
+    <ul class="list-unstyled quick-links">  
+    <li> <a href="second.html"> <i class="fa fa-angle-double-right"> </i> Home </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> About </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> FAQ </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Our Services </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Expert Team </a> </li>  
+    </ul>  
+    </div>  
+    <div class="col-xs-12 col-sm-4 col-md-4">  
+    <h5> Quick links </h5>  
+             <ul class="list-unstyled quick-links">  
+     <li> <a href="second.html"> <i class="fa fa-angle-double-right"> </i> Home </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> About </a></li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> FAQ </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Get Started </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Contact </a> </li>  
+    </ul>  
+    </div> 
+     
+    </div>  
+    <div class="row">  
+    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">  
+    <ul class="list-unstyled list-inline social text-center">  
+    <li class="list-inline-item"> <a href="#"> <i class="fa fa-facebook"> </i> </a> </li>  
+             <li class="list-inline-item"> <a href="#"> <i class="fa fa-twitter"> </i> </a> </li>  
+    <li class="list-inline-item"> <a href="#"> <i class="fa fa-instagram"> </i> </a> </li>  
+    <li class="list-inline-item"> <a href="#"> <i class="fa fa-google-plus"> </i > </a> </li>  
+    <li class="list-inline-item"> <a href="#"> <i class="fa fa-envelope"> </i> </a> </li>  
+    </ul>  
+    </div>
+      
+   
+    <hr>  
+    </div>      
+    <div class="row">  
+    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">  
+   <p class="h6"> 2021 ? All right Reversed.</p>  
+    </div>  
+    <hr>  
+    </div>      
+    </div>  
+    </section>  
+</body>  
+</html> 
+
+
+
+  
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Movies Hub </title>
+    <link rel="icon" type="image/x-icon" href="icon3.jpeg">
+
+        <meta name="viewport" content=""width-device-width, initial-scale="1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+<style>
+    h1{
+                color:rgb(206, 183, 183);
+            }
+
+.myTable thead th {
+background-color: #DDEFEF;
+
+color: #336B6B;
+padding: 10px;
+text-align: left;
+text-shadow: 1px 1px 1px #fff;
+}
+.myTable tbody td {
+
+color: #333;
+padding: 10px;
+text-shadow: 1px 1px 1px #fff;
+}
+.myTable-highlight-column {
+overflow: hidden;
+z-index: 1;
+}
+.myTable-highlight-column tbody td, .myTable-highlight-column tbody td {
+position: relative;
+}
+.myTable-highlight-column tbody td:hover::after {
+background-color: #e4e8e8;
+content:'\00a0';
+height: 10000px;
+left: 0;
+position: absolute;
+top: -5000px;
+width: 100%;
+z-index: -1;
+
+}
+</style>
+</head>
+<body>
+    <table style="width:115%; ">
+        <tr>
+            <td><h1 class="display-4 text-danger">&nbsp;<b>Movies Hub</b></h1> </td>
+            <td><a href="first page.html"><button class="btn btn-lg btn-outline-light text-dark" onclick="Myfunction()">Sign Out</button></a> </td>
+            <p id="demo1"> </p>
+            <script>
+                function Myfunction(){
+                    let text = "Would you like to go to the next page? ";
+                      if (confirm(text) == true) {
+                        text = "Redirecting..."; }
+                    else {
+                          text = "You canceled!"; }
+                      document.getElementById("demo1").innerHTML = text;
+            }
+            </script>
+
+            
+        </tr>
+    </table>
+    <br><hr>
+    <br>
+    <div class="container">
+    <h2> Choose the plan that is right for you </h2>
+    <p style="font-size:130%;"><img src="tick1.jpeg" width="2.5%" height="2.5%">&nbsp; Watch all you want Ad-free. </p>
+    <p style="font-size:130%;"><img src="tick1.jpeg" width="2.5%" height="2.5%">&nbsp; Recommendations just for you. </p>
+    <p style="font-size:130%;"><img src="tick1.jpeg" width="2.5%" height="2.5%">&nbsp; Change or cancel your plan anytime. </p>
+    <p style="font-size:130%;"><img src="tick1.jpeg" width="2.5%" height="2.5%">&nbsp; Enjoy Exclusive offers. </p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+
+ <center><table class="myTable myTable-highlight-column">
+<tbody>
+<tr>
+    <tr>
+        <td style="text-align: center;">Plan</td>
+        <td style="text-align: center;"><pre><img src="11.jpeg" width="40%" height="40%"></td>
+        <td style="text-align: center;"><img src="12.jpeg" width="40%" height="40%"></td>
+        <td style="text-align: center;"><img src="13.jpeg" width="40%" height="40%"></td>
+        <td style="text-align: center;"><img src="14.jpeg" width="40%" height="40%"> </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Monthly price</td>
+        <td style="text-align: center;">$ 1.81</td>
+        <td style="text-align: center;">$ 2.42</td>
+        <td style="text-align: center;">$ 6.06</td>
+        <td style="text-align: center;">$ 7.88</td>
+      </tr>
+      <tr>
+        <td colspan="10"><b><hr></b></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Video Quality</td>
+        <td style="text-align: center;">Good</td>
+        <td style="text-align: center;">Good</td>
+        <td style="text-align: center;">Better</td>
+        <td style="text-align: center;">Best</td>
+      </tr>
+      <tr>
+        <td colspan="10"><b><hr></b></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Resolution</td>
+        <td style="text-align: center;">480p</td>
+        <td style="text-align: center;">720p</td>
+        <td style="text-align: center;">1080p</td>
+        <td style="text-align: center;">4K+HDR</td>
+      </tr>
+      <tr>
+        <td colspan="10"><b><hr></b></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Device you can use to watch</td>
+        <td style="text-align: center;"><img src="ph.jpeg" width="10%" height="10%"></td>
+        <td style="text-align: center;"><img src="ph.jpeg" width="10%" height="10%"></td>
+        <td style="text-align: center;"><img src="ph.jpeg" width="10%" height="10%"></td>
+        <td style="text-align: center;"><img src="ph.jpeg" width="10%" height="10%"></td>
+    </tr>
+      <tr>
+        <td>                                  </td>
+        <td style="text-align: center;"><img src="tab.jpeg" width="10%" height="10%"></td>
+        <td style="text-align: center;"><img src="tab.jpeg" width="10%" height="10%"></td>
+        <td style="text-align: center;"><img src="tab.jpeg" width="10%" height="10%"></td>
+        <td style="text-align: center;"><img src="tab.jpeg" width="10%" height="10%"></td>
+       
+      </tr>
+      <tr>
+        <td>                         </td>
+        <td>                         </td>
+        <td style="text-align: center;"><img src="co.jpeg" width="15%" height="10%"></td>
+        <td style="text-align: center;"><img src="co.jpeg" width="15%" height="10%"></td>
+        <td style="text-align: center;"><img src="co.jpeg" width="15%" height="10%"></td>
+      </tr>
+      <tr>
+        <td>                         </td>
+        <td>                         </td>
+        <td style="text-align: center;"><img src="tv.jpeg" width="15%" height="10%"></td>
+        <td style="text-align: center;"><img src="tv.jpeg" width="15%" height="10%"></td>
+        <td style="text-align: center;"><img src="tv.jpeg" width="15%" height="10%"></td>
+      </tr>
+</tbody>
+</table></center><br><br>
+<center><a href="second.html"><button class="btn btn-outline-danger btn-lg" type="button">Go to Home Page</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="first page.html"><button class="btn btn-outline-danger btn-lg" type="button">Go to Subscribe Page</button></a>
+</body>
+</html>

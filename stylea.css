@@ -1,0 +1,21 @@
+
+.background{
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+  position:relative;
+} 
+
+.background::before {
+  content:'';
+  background-image: url('netflix.jpg');
+  background-repeat: no-=repeat;
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity:0.2;
+}
